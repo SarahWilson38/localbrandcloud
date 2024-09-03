@@ -67,9 +67,15 @@
             margin: 50px 0;
             text-align: center;
         }
-        .iframe-container iframe {
+        .iframe-container iframe, .iframe-container img {
             border: none;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 100%;
+            height: auto;
+        }
+        .gallery img {
+            max-width: 48%;
+            margin: 1%;
         }
         .footer {
             background-color: #333;
@@ -97,49 +103,83 @@
         </div>
     </div>
 
-    <!-- Main Content Section -->
+    <!-- Gallery Section -->
+    <div class="container content-section gallery">
+        <h2>Gallery</h2>
+        <p>Explore our service through images. Here's a glimpse of what we offer.</p>
+        <img src="https://drive.google.com/uc?export=view&id=1ZzzDTUQ-veaIgzo8-OzVwgX7lzWCz2yh" alt="Photo 1">
+        <img src="https://drive.google.com/uc?export=view&id=1zQOlhE1IP0kLNnzSnNyRvbU2VZyUCY59" alt="Photo 2">
+    </div>
+
+    <!-- Schedule and Availability -->
     <div class="container content-section">
-        <p>Tallahassee Towing Company is a trusted towing company in Tallahassee, dedicated to providing top-notch towing and roadside assistance services to the local community. With a focus on fast response times, professional service, and customer care, we are here to help drivers get back on the road quickly and safely.</p>
-        <p>Whether you need emergency towing, accident recovery, or simple roadside assistance, our experienced team is committed to delivering reliable solutions that you can count on day or night. <a href="https://maps.app.goo.gl/y5UMDFSBG1wY8Yqp7" class="contact-link">Contact us today for Towing Company in Tallahassee.</a></p>
-
-        <!-- Blog Embed -->
+        <h2>Schedule and Availability</h2>
+        <p>Check our availability using the calendar below.</p>
         <div class="iframe-container">
-            <iframe src="https://tallahasseetowingcompany.blogspot.com/" width="500" height="350"></iframe>
+            <iframe src="https://calendar.google.com/calendar/embed?src=sarah.wilson38%40compbizblog.com&ctz=America%2FKentucky%2FLouisville" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
         </div>
+    </div>
 
-        <h2>Our Commitment to Quality Service</h2>
-        <p>At Tallahassee Towing Company, we pride ourselves on our commitment to delivering high-quality towing services. Our team is dedicated to ensuring that each customer receives the best possible care, from the moment you call us until your vehicle is safely back on the road.</p>
-        <p>We understand the stress and inconvenience of vehicle breakdowns, which is why we offer fast, efficient, and professional services tailored to meet your specific needs. Our fleet of modern tow trucks and experienced operators are equipped to handle any situation, whether it's a simple tow or a complex recovery.</p>
+    <!-- Service Overview -->
+    <div class="container content-section">
+        <h2>Service Overview</h2>
+        <p>Here’s a visual overview of our services.</p>
+        <div class="iframe-container">
+            <img src="https://docs.google.com/drawings/d/1098p-aYY8z84AgYjwVvCZEnRbYPSPZGx35CW2CEKM6E/pub?w=1440&h=1080" alt="Service Overview">
+        </div>
+    </div>
 
-        <!-- Google My Map Embed -->
+    <!-- Find Us -->
+    <div class="container content-section">
+        <h2>Find Us</h2>
+        <p>Locate us easily with the map below.</p>
         <div class="iframe-container">
             <iframe src="https://www.google.com/maps/d/embed?mid=1TstQncZyrEBdKkbK5BZn0OIsAKwkvYo&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
         </div>
+    </div>
 
-        <p>Getting stranded on the side of the road can be a stressful experience, especially when you need assistance fast. Whether you’re dealing with a vehicle breakdown, flat tire, or any other roadside emergency, you can count on Tallahassee Towing Company to be there when you need us most. We offer 24/7 towing and roadside services, ensuring help is just a phone call away, no matter the time of day or night.</p>
-
-        <!-- Image Embed -->
+    <!-- Get in Touch -->
+    <div class="container content-section">
+        <h2>Get in Touch</h2>
+        <p>Fill out the form below to contact us or request a service.</p>
         <div class="iframe-container">
-            <img src="https://lh5.googleusercontent.com/p/AF1QipPOdTxO3Zp-Aeml6yN-YEnFMDlcehtsRXIJnZOr" alt="Tow Truck" style="max-width:100%; height:auto;">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclKtJ8VBZsm9XKh3UIAobDqSHRf_DzJs4SeDk7zYMx9vHDJg/viewform?embedded=true" width="640" height="1080" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
+    </div>
 
-        <h3>Contact Us for Reliable Towing Services in Tallahassee</h3>
-        <p>Whenever you need a dependable tow truck in Tallahassee, our team of experienced professionals is ready to respond quickly and get you back on the road safely. From emergency towing to winching and accident recovery, we have the skills and equipment to handle any situation with care and efficiency. Don’t let a vehicle issue leave you stranded; call Tallahassee Towing Company now for prompt, professional assistance.</p>
-        <p><button onclick="window.location.href='tel:+18505832682'">Click Here to Call Us: (850) 583-2682</button></p>
-        <p>Tallahassee Towing Company<br>
-        1841 S Monroe St #1-B, Tallahassee, FL 32301, United States<br>
-        (850) 583-2682<br>
-        <a href="http://tallahasseetowcompany.com/" class="contact-link">http://tallahasseetowcompany.com/</a></p>
-
-        <!-- Google Business Map Embed -->
+    <!-- Detailed Service Information -->
+    <div class="container content-section">
+        <h2>Detailed Service Information</h2>
+        <p>Read more about our services in detail.</p>
         <div class="iframe-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13761.609616400152!2d-84.2799284!3d30.4246926!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ecf50cd46f4cfd%3A0xcc197424d46d887!2sTallahassee%20Towing%20Company!5e0!3m2!1sen!2smy!4v1725362014717!5m2!1sen!2smy" width="600" height="450" allowfullscreen="allowfullscreen"></iframe>
+            <iframe src="https://docs.google.com/document/d/1uOm5sOGIPisUg5tBMsJ6u521HT0Gu5ExZRI95K2LfCM/pub?embedded=true"></iframe>
         </div>
+    </div>
 
-        <!-- Calendar Embed -->
+    <!-- Presentation -->
+    <div class="container content-section">
+        <h2>Presentation</h2>
+        <p>Watch our presentation to learn more about our services.</p>
         <div class="iframe-container">
-            <h4>Check Availability</h4>
-            <iframe src="https://calendar.google.com/calendar/embed?src=sarah.wilson38%40compbizblog.com&ctz=America%2FKentucky%2FLouisville" width="800" height="600" scrolling="no"></iframe>
+            <iframe src="https://docs.google.com/presentation/d/1m5GitYpYxQf0NXBVFs7TTqwcqdAqEq-bAH1bnmXWLQo/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+    </div>
+
+    <!-- Additional Information -->
+    <div class="container content-section">
+        <h2>Additional Information</h2>
+        <p>Visit our Google Site for more details.</p>
+        <div class="iframe-container">
+            <a href="https://sites.google.com/compbizblog.com/tallahasseetowingcompany/home" target="_blank">Visit Our Site</a>
+        </div>
+    </div>
+
+    <!-- Latest News -->
+    <div class="container content-section">
+        <h2>Latest News</h2>
+        <p>Stay updated with our latest news and updates.</p>
+        <div class="iframe-container">
+            <iframe src="https://tallahasseetowingcompany.blogspot.com/" width="500" height="350"></iframe>
         </div>
     </div>
 
